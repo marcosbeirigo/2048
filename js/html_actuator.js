@@ -155,7 +155,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "fanpagetonantes");
+  tweet.setAttribute("data-via", "t0nantes");
   tweet.setAttribute("data-url", "https://www.facebook.com/t0nantes");
   tweet.setAttribute("data-counturl", "https://www.facebook.com/t0nantes");
   tweet.textContent = "Tweet";
